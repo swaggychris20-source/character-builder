@@ -1,0 +1,54 @@
+/* General body styling */
+body {
+    background-color: #333; /* Dark grey background */
+    color: #eee; /* Light text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for buttons */
+button {
+    background-color: #007bff; /* Nice blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for navigation menus (assuming a common 'nav' or 'menu' class/element) */
+nav, .menu {
+    background-color: #007bff; /* Nice blue for menus */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul, .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li, .menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a, .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover, .menu ul li a:hover {
+    text-decoration: underline;
+}
